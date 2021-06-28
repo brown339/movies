@@ -1,0 +1,233 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>🎬 Movies App</title>
+        <style>
+         .sidebar > ul {
+             list-style-type: none;
+             padding: 0;
+             margin: 0;
+         }
+         .sidebar > ul > li {
+             padding: 10px;
+             border: 1px solid #1C1C1C;
+             margin: 5px 0;
+             cursor: pointer;
+         }
+         .moviecard {
+             width: 150px;
+             height: 95px;
+             border: 1px solid #1C1C1C;
+             display: flex;
+             flex-direction: column;
+             margin: 5px;
+         }
+         .moviecard-title {
+             border-bottom: 1px solid gray;
+         }
+         .moviecard-overview {
+             flex: 1;
+         }
+         .moviecard-genres > ul {
+             list-style-type: none;
+             padding: 0;
+             margin: 0;
+             display: flex;
+         }
+         .moviecard-genres > ul > li {
+             flex: 1;
+             margin: 0 10px;
+         }
+             
+        </style>
+    </head>
+
+    <body>
+        <div style="display: flex;">
+            <div class="sidebar" style="flex: 1">
+                <h2>🎬 Movies App</h2>
+
+                <ul>
+                    <li>(all movies)</li>
+                </ul>
+
+                <h3>By Genre</h3>
+                <ul id="genres">
+                    <li>Crime (###)</li>
+                    <li>Horror (###)</li>
+                    <li>...</li>
+                </ul>
+            </div>
+            <div style="padding-left: 10px; flex: 3; display: flex; flex-wrap: wrap;">
+                <div class="moviecard">
+                    <div class="moviecard-title">
+                        [title] (release year)
+                    </div>
+                    <div class="moviecard-overview">
+                        [overview]
+                    </div>
+                    <div class="moviecard-genres">
+                        <ul>
+                            <li>genre1</li>
+                            <li>genre2</li>
+                            <li>...</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="moviecard">
+                    <div class="moviecard-title">
+                        [title] (release year)
+                    </div>
+                    <div class="moviecard-overview">
+                        [overview]
+                    </div>
+                    <div class="moviecard-genres">
+                        <ul>
+                            <li>genre1</li>
+                            <li>genre2</li>
+                            <li>...</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="moviecard">
+                    <div class="moviecard-title">
+                        [title] (release year)
+                    </div>
+                    <div class="moviecard-overview">
+                        [overview]
+                    </div>
+                    <div class="moviecard-genres">
+                        <ul>
+                            <li>genre1</li>
+                            <li>genre2</li>
+                            <li>...</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="moviecard">
+                    <div class="moviecard-title">
+                        [title] (release year)
+                    </div>
+                    <div class="moviecard-overview">
+                        [overview]
+                    </div>
+                    <div class="moviecard-genres">
+                        <ul>
+                            <li>genre1</li>
+                            <li>genre2</li>
+                            <li>...</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="moviecard">
+                    <div class="moviecard-title">
+                        [title] (release year)
+                    </div>
+                    <div class="moviecard-overview">
+                        [overview]
+                    </div>
+                    <div class="moviecard-genres">
+                        <ul>
+                            <li>genre1</li>
+                            <li>genre2</li>
+                            <li>...</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="moviecard">
+                    <div class="moviecard-title">
+                        [title] (release year)
+                    </div>
+                    <div class="moviecard-overview">
+                        [overview]
+                    </div>
+                    <div class="moviecard-genres">
+                        <ul>
+                            <li>genre1</li>
+                            <li>genre2</li>
+                            <li>...</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="moviecard">
+                    <div class="moviecard-title">
+                        [title] (release year)
+                    </div>
+                    <div class="moviecard-overview">
+                        [overview]
+                    </div>
+                    <div class="moviecard-genres">
+                        <ul>
+                            <li>genre1</li>
+                            <li>genre2</li>
+                            <li>...</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="moviecard">
+                    <div class="moviecard-title">
+                        [title] (release year)
+                    </div>
+                    <div class="moviecard-overview">
+                        [overview]
+                    </div>
+                    <div class="moviecard-genres">
+                        <ul>
+                            <li>genre1</li>
+                            <li>genre2</li>
+                            <li>...</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="moviecard">
+                    <div class="moviecard-title">
+                        [title] (release year)
+                    </div>
+                    <div class="moviecard-overview">
+                        [overview]
+                    </div>
+                    <div class="moviecard-genres">
+                        <ul>
+                            <li>genre1</li>
+                            <li>genre2</li>
+                            <li>...</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="moviecard">
+                    <div class="moviecard-title">
+                        [title] (release year)
+                    </div>
+                    <div class="moviecard-overview">
+                        [overview]
+                    </div>
+                    <div class="moviecard-genres">
+                        <ul>
+                            <li>genre1</li>
+                            <li>genre2</li>
+                            <li>...</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="moviecard">
+                    <div class="moviecard-title">
+                        [title] (release year)
+                    </div>
+                    <div class="moviecard-overview">
+                        [overview]
+                    </div>
+                    <div class="moviecard-genres">
+                        <ul>
+                            <li>genre1</li>
+                            <li>genre2</li>
+                            <li>...</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
