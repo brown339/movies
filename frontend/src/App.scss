@@ -1,0 +1,17 @@
+div.container {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 40px auto;
+  width: 980px;
+}
+
+// ==== SIDEBAR ==== //
+aside {
+  margin-right: 30px;
+  width: 300px;
+}
+
+// ==== MAIN CONTENT ==== //
+main {
+  flex: 1 1 0;
+}

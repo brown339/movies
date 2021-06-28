@@ -1,0 +1,34 @@
+a.moviecard {
+  border: 1px solid #1C1C1C;
+  color: #333;
+  display: inline-flex;
+  flex-direction: column;
+  height: 200px;
+  margin: 5px;
+  text-decoration: none;
+  width: 300px;
+  
+  div.moviecard-title {
+    border-bottom: 1px solid gray;
+  }
+
+  div.moviecard-overview {
+    flex: 1 1 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  div.moviecard-genres > ul {
+    display: flex;
+    height: 22px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      flex: 1;
+      margin: 0 10px;
+    }
+  }
+}
